@@ -45,7 +45,7 @@ MAGIC: bytes = b'PGDMP'
 MIN_VER: typing.Tuple[int, int, int] = (1, 12, 0)
 """The minumum supported version of pg_dump files ot support"""
 
-MAX_VER: typing.Tuple[int, int, int] = (1, 14, 0)
+MAX_VER: typing.Tuple[int, int, int] = (1, 15, 0)
 """The maximum supported version of pg_dump files ot support"""
 
 PGDUMP_STRFTIME_FMT: str = '%Y-%m-%d %H:%M:%S %Z'
